@@ -1,0 +1,25 @@
+python finetune_whisper.py \
+	--model_name_or_path="openai/whisper-base" \
+	--language="persian" \
+	--num_train_epochs="3" \
+	--output_dir="./whisper-base-me" \
+	--per_device_train_batch_size="32" \
+	--gradient_accumulation_steps="1" \
+	--per_device_eval_batch_size="32" \
+	--logging_steps="1" \
+	--learning_rate="1e-5" \
+	--warmup_steps="10" \
+	--eval_strategy="epoch" \
+	--save_strategy="epoch" \
+    --save_total_limit="2" \
+	--generation_max_length="225" \
+	--preprocessing_num_workers="12" \
+	--max_duration_in_seconds="30" \
+	--freeze_feature_encoder="False" \
+	--gradient_checkpointing \
+	--fp16 \
+	--overwrite_output_dir \
+	--do_train \
+	--do_eval \
+	--transcription_column_name="sentence" \
+	--predict_with_generate 
