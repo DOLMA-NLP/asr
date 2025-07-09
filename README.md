@@ -2,16 +2,16 @@
 
 <div align="center">
   
-  <h3>📄 Paper: <a href="[PAPER_LINK_PLACEHOLDER]">Interspeech 2025</a></h3>
+  <h3>📄 Paper: <a href="https://sinaahmadi.github.io/docs/articles/hameed2025ASR-ME.pdf" target="_blank" rel="noopener noreferrer">Interspeech 2025</a></h3>
   
   <p>
-    <a href="https://huggingface.co/datasets/razhan/DOLMA-speech">
+    <a href="https://huggingface.co/datasets/razhan/DOLMA-speech" target="_blank" rel="noopener noreferrer">
       <img src="https://img.shields.io/badge/🤗%20Dataset-DOLMA--speech-blue" alt="DOLMA-speech Dataset">
     </a>
-    <a href="https://huggingface.co/datasets/razhan/hawrami_speech">
+    <a href="https://huggingface.co/datasets/razhan/hawrami_speech" target="_blank" rel="noopener noreferrer">
       <img src="https://img.shields.io/badge/🤗%20Dataset-Hawrami%20Studio-green" alt="Hawrami Studio Dataset">
     </a>
-    <a href="https://huggingface.co/collections/razhan/dolma-asr-models-686d7c2f95e8b3d776ec2d31">
+    <a href="https://huggingface.co/collections/razhan/dolma-asr-models-686d7c2f95e8b3d776ec2d31" target="_blank" rel="noopener noreferrer">
       <img src="https://img.shields.io/badge/🤗%20Models-DOLMA%20ASR%20Collection-purple" alt="All Trained Models Collection">
     </a>
   </p>
